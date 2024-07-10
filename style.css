@@ -62,6 +62,7 @@ nav ul li {
     color: white;
     font-size: 20px;
     cursor: pointer;
+    margin: 50px;
 }
 
 .bannerButton {
@@ -71,6 +72,7 @@ nav ul li {
 .webDevelopment {
     background-color: rgb(247, 247, 247);
     margin: 5% 5% 0 5%;
+    border-radius: 15px;
 }
 
 .title {
@@ -169,7 +171,7 @@ nav ul li {
 }
 
 .current-target {
-
+    padding: 50px 50px 50px 50px;
 }
 
 .target-title {
@@ -248,6 +250,73 @@ nav ul li {
     
 }
 
+.next-to-learn {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.nextLearn-title {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.nextLearn-description {
+    font-size: 18px;
+    color: black;
+    text-align: center;
+    padding: 20px 50px 50px 50px;
+}
+
+.next-card {
+    display: flex;
+    padding: 50px 50px;
+    margin: 20px 20px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.next-card-img {
+    text-align: center;
+    padding-right: 25px;
+}
+
+.next-card-texts {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.title-of-card {
+    color: black;
+    text-align: left;
+    padding: 0px 1px;
+    font-size: 20px;
+}
+
+.text-of-card {
+    color: black;
+    text-align: left;
+    padding: 0px 1px;
+    font-size: 18px;
+}
+
+.link-of-card {
+    color: black;
+    text-align: left;
+    padding: 1px 1px;
+    font-size: 20px;
+}
+
+.next-card .next-card-texts .link-of-card a {
+    text-decoration: none;
+    color: black;
+}
+
 .supportSection {
     background-image: url('./assets/handshake.jpg');
     text-align: center;
@@ -258,7 +327,7 @@ nav ul li {
     padding: 64px 48px 64px 48px ;
     border-radius: 16px;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 150px;
     margin-bottom: 90px;
 }
 
@@ -274,7 +343,8 @@ nav ul li {
     height: 57px;
     border-radius: 8px;
     font-size: 16px;
-    color:rgba(255, 255, 255, 1);
+    color: black;
+    font-size: 20px;
     background-color: white;
 }
 
