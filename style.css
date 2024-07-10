@@ -149,7 +149,7 @@ nav ul li {
 }
 
 .inspirationTitle {
-    font-size: 20px;
+    font-size: 25px;
     color: black;
     text-align: center;
     margin-bottom: 2%;
@@ -159,19 +159,94 @@ nav ul li {
     font-size: 16px;
     color: black;
     text-align: center;
-    margin-bottom: 5%;
 }
 
 .container {
     text-align: center;
     align-items: center;
-    margin: auto;
-    width: 2000px;
-    height: 1200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
 
+.current-target {
 
+}
 
+.target-title {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.target-description {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card-img {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-text {
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 16px;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.card-link {
+    text-align: left;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.card-link a {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
+
+.card-1{
+    width: 370px;
+    height: 300px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+.card-2{
+    width: 370px;
+    height: 300px;
+    background-color:rgba(0, 76, 232, 0.05);
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+.card-3{
+    width: 370px;
+    height: 300px;
+    background-color:rgba(255, 223, 0, 0.05);
+    border-radius: 15px;
+    padding-top: 50px;
+    
+}
 
 .supportSection {
     background-image: url('./assets/handshake.jpg');
@@ -183,7 +258,7 @@ nav ul li {
     padding: 64px 48px 64px 48px ;
     border-radius: 16px;
     margin: auto;
-    margin-top: 5%;
+    margin-top: 20%;
     margin-bottom: 90px;
 }
 
@@ -232,6 +307,5 @@ nav ul li {
 
 .footer-icons {
     display: flex;
-    
-    gap: 60px
+    gap: 50px
 }
