@@ -173,16 +173,52 @@ nav ul li {
 
 
 
+.supportSection {
+    background-image: url('./assets/handshake.jpg');
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    width: 1140;
+    height: 200;
+    padding: 64px 48px 64px 48px ;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
 
+.supportTitle {
+    font-size: 25px;
+    font-weight: bold ;
+    color: white;
+    margin-top: 5%;
+}
 
+.input-field {
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+    background-color: white;
+}
 
+.submitButton {
+    width: 120px;
+    height: 60;
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
 
-
-
-
-
-
-
+.feedback-text {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700px;
+}
 
 .footer {
     display: flex;
